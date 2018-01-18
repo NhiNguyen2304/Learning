@@ -1,0 +1,578 @@
+
+body{ margin:0;
+	box-sizing:border-box;
+	}
+#all-web{ width:100%;
+		
+		box-sizing:border-box;}
+#top-web{ box-sizing:border-box;
+	width:100%; 
+	height:130px;
+	background-color:#131414;
+	position:fixed;
+	top:0px;
+	position:fixed;
+	z-index:2;}
+#top-web-top{ width:30%; height:50%;
+				float:left;
+			  padding-left:550px;}
+#top-web-bottom{ width:100%;
+				height:40%;
+				float:left;
+				margin-left:23%;}					
+				
+ul.submenu >li{ font-size:14px;
+				box-sizing:border-box;
+				list-style-type:none;
+				margin-top:15px;
+				float:left;
+				margin-right:7%;
+				/*padding-left:250px;
+				margin-right:-150px;*/
+				color:white;
+				font-family:"kulturista-web", sans-serif;
+				line-height:24px;
+				}
+a:link{ 
+ 		text-decoration:none;}
+a:hover {cursor: pointer;
+ 			color:#666;
+		}
+a { text-decoration:none;
+	color:white;
+	
+	}
+
+
+/*middle of web (top)*/
+#title-infor{ color:white;
+			font-size:46px;
+			word-spacing:25px;
+			letter-spacing:10px;
+			text-align:center;
+			
+			height:30px;
+			font-family:Pica;
+			line-height:24px;
+			vertical-align: middle;}
+
+
+#hr1{  width:400px;
+	size:100px;
+	
+	}
+#hr2{  width:400px;
+	size:100px;
+	
+	}
+#middle-web{ width:100%;
+		height:1400px;
+		box-sizing:border-box;
+		background-color:white;
+		margin-top:200px;
+		margin-right:-50px;
+		}
+#middle-web-top-text{ width:70%;
+					  height:15%;
+					 
+					  padding-left:13%;
+					 
+					  text-align:center;
+					  font-family:Pica;
+					  margin-bottom:10px;
+					  }
+#tittle{ font-family:Pica; 
+         line-height:24px;
+		text-transform:uppercase;
+		letter-spacing:2px;
+		font-size:20px;
+		color:#333;
+		border:1;
+		border:#666;
+		background-color:white;
+		margin-top:10px;
+		padding-top:10px;}
+p{ color:#666;
+    font-size:20px;
+	font-family:"kulturista-web", sans-serif; 
+    
+	}
+#title-infor2{ color:#666;
+    font-size:16px;
+	font-family:"kulturista-web", sans-serif; 
+    
+	}
+/*middle of web (middle)*/
+
+#middle-web-middle-img{ float:left;
+						width:100%;
+						height:20%;
+						
+						}
+.make1{ width:28%;
+		height:100%;
+		background-color:black;
+		float:left;
+		box-sizing:border-box;
+		margin-left:3%;
+		margin-right:5%;}
+.make2{ width:28%;
+		height:100%;
+		background-color:black;
+		float:left;
+		box-sizing:border-box;
+		margin-right:5%;}
+.make3{ width:28%;
+		height:100%;
+		background-color:black;
+		float:left;
+		box-sizing:border-box;}
+#p1 { 
+	height:100%;
+	opacity: 1;
+    display: block;
+	 transition: .5s ease;
+  backface-visibility: hidden;
+  width:100%;
+  float:left;}
+.middle-web-middle-img-1 { width:100%;
+							background-color:rgba(204, 196, 196, 0.22);
+							box-sizing:border-box;
+							height:85%;
+						   padding-top:40px;
+						   
+						    position: relative;}
+#p1:hover{
+  opacity: 0.3;
+ 
+}
+
+.make1:hover .change1{
+  opacity: 1.2;
+  cursor: pointer;
+  
+}
+.make2:hover .change2{
+  opacity: 1;
+  cursor: pointer;
+}
+.make3:hover .change3{
+  opacity: 1;
+  cursor: pointer;
+}
+.text {
+  
+  color: white;
+  font-size: 34px;
+  padding: 16px 32px;
+  font-family: Pica; 
+ 
+}
+.change1{ margin-left:55px;
+   	margin-top:100px;
+	transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  
+    width:150px;
+  height:60px;
+  text-align:center;
+  box-sizing:border-box;
+   
+  }
+.change2{ margin-left:120px;
+   	margin-top:100px;
+	transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  
+   width:130px;
+  height:60px;
+  text-align:center;
+  box-sizing:border-box;}
+ .change3{margin-left:120px;
+ 		 	margin-top:100px;
+ 
+	transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  
+   width:130px;
+  height:50px;
+  text-align:center;
+  box-sizing:border-box;}
+#middle-web-middle-img-2{float:left; 
+						width:100%;
+						height:20%;
+						margin-left:-50px;
+						box-sizing:border-box;
+						margin-top:50px;
+						margin-bottom:150px;
+						text-align:center; 
+						font-family:Pica;
+						line-height:24px;}
+/*Design button STORE*/
+
+/**/
+
+/*Video*/
+#middle-web-text-video{ width:100%;
+						height:500px;
+						
+						float:left;
+						box-sizing:border-box;
+						}
+#wellcome{ width:30%;
+			height:70px;
+			border:2px solid #666;
+			float:left;
+			margin-top:70px;
+			margin-left:430px;
+			text-align:center;
+			font-size:18px;
+			
+			color:white;}
+#video { width:50%;
+		height:100%;
+		box-sizing:border-box;
+		
+		float:left;
+		box-sizing:border-box;
+		}
+#video-detail{ width:100%;
+				height:100%;
+			
+				float:left;}
+#timing{color:white;
+		font-family:Pica; 
+		font-size:26px;
+		text-align:center;
+		
+		
+		
+		
+		}
+
+
+
+#title-infor3{ 
+			color:white;
+			font-size:30px;
+			word-spacing:25px;
+			letter-spacing:10px;
+			text-align:center;
+			padding-top:5.3%;
+			
+			font-family:Pica;
+			line-height:24px;
+			vertical-align: middle;}
+#parallax-left{ width:40%;
+				height:80%;
+				float:left;
+				margin-right:5%;}
+.test {
+	
+	border:solid;
+	
+	
+}
+
+#thanks{ width:100%;
+		height:37%;
+		float:left;
+		
+		box-sizing:border-box;
+		}
+
+	
+	
+
+
+#middle-web-bottom-menu-footer{ margin-top:100px;
+								width:100%;
+								height:800px;
+								float:left;
+								box-sizing:border-box;}
+#middle-web-menu-footer-left{ width:40%;
+							height:100%;
+							float:left;
+							
+							padding-left:5%;
+							padding-top:50px;
+							}
+#middle-web-menu-footer-right{ width:40%;
+							height:100%;
+							float:left;
+							padding-top:50px;
+ 						padding-left:10%;}	
+#information{ text-align:center;
+				color:white;
+				font-size:20px;}	
+#detail{ text-align:center;
+		color:white;
+		font-size:16px}
+/*web footer*/
+
+#web-footer{ width:100.7%;
+			float:left;
+			height:50px;
+			background-color:black;
+			margin-left:-8px;
+			box-sizing:border-box;
+			margin-top:100px;
+			
+			}
+#web-footer-left{ width:50%;
+					height:100%;
+					float:left;}
+#web-footer-submenu{ width:100%;
+					height:60%;
+	                list-style-type:none;
+					color:white;
+					font-size:10px;
+					box-sizing:border-box;
+					 float:left;}
+#foot{ width:18%;
+		height:100%;
+		float:left;
+		box-sizing:border-box;
+		font-family:Pica;
+		line-height:24px;
+		letter-spacing:1px;
+		margin-top:6px;
+		}
+.foot{ color:#666;
+		margin-right:10px;
+		height:100%;}
+#web-footer-right{ width:30%;
+					height:50%;
+					float:left;
+					box-sizing:border-box;
+					margin-left:250px;
+					margin-top:10px;
+					}
+/* Style all font  icons */
+.fa {
+   
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
+.fa-facebook {
+   
+    color: white;
+	
+}
+
+
+.fa-twitter {
+    
+    color: white;
+}
+.fa-instagram{ color: white;}
+.fa-skype{ color: white;}
+
+body, html {
+    height: 100%;
+}
+
+.parallax1{ 
+    /* The image used */
+    background-image: url("street_town_building_tree_111410_602x339.jpg");}
+.parallax2{ 
+    /* The image used */
+    background-image: url("GettyImages-518345004_super.jpg");}
+.parallax3{ 
+    /* The image used */
+    background-image: url("news-hero.jpg");}
+.parallax4{ 
+    /* The image used */
+    background-image: url("street_town_building_tree_111410_602x339.jpg");}
+.parallax5{ 
+    /* The image used */
+    background-image: url("street_town_building_tree_111410_602x339.jpg");}
+
+    /* Full height */
+.parallax1{
+    height: 20%; 
+	width:100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-top:-70px;
+	box-sizing:border-box;
+	padding-top:9%;
+	}
+.parallax2{
+    height: 40%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-top:10px;
+	}
+.parallax3{
+    height: 100%; 
+	width:100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-top:110px;
+	box-sizing:border-box;
+	}
+.parallax4{
+    height: 50%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-top:300px;
+	}
+.parallax5{
+    height: 73.5%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-top:250px;
+	opacity:70%;}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
+
+/*slide show*/
+#slide {
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+#slider {
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+	margin-top:250px;
+}
+#ul-slide{
+    padding: 0;
+    margin-top: 0px;
+	-webkit-animation: slide 10s ease-in-out 0s infinite normal;
+	} 
+	/*infinite lap lai chuyen dong vo han lan*/
+
+
+
+@-webkit-keyframes slide {
+    0% {margin-top:  0px;}
+    28% {margin-top: 0px;}
+    33% {margin-top: -200px;}
+ 
+    61% {margin-top: -200px;}
+    66% {margin-top: -400px;}
+ 
+    95% {margin-top: -400px;}
+    100% {margin-top: 0px}
+}
+
+
+/*menu left*/
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	font-family:"kulturista-web", sans-serif;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color:#666;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*go to top*/
+i {
+  border: solid grey;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 3px;
+}
+#myBtn {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    
+   
+    
+   
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    
+}
+
+#myBtn:hover {
+    color:red; /* Add a dark-grey background on hover */
+}
